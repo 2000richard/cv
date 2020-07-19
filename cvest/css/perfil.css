@@ -1,0 +1,70 @@
+section #img {
+  background-image: url("/img/rerp.jpg");
+  height: 200px;
+  width: 200px;
+  margin: auto;
+  border-radius: 100%;
+  overflow: hidden;
+  box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+}
+
+section #description {
+  opacity: 0;
+  visibility: hidden;
+  text-align: center;
+  padding: 10px;
+  margin-top: 12px;
+  font-size: 0.8em;
+  color: black;
+  font-family: Tahoma, Geneva, sans-serif;
+}
+section #img:hover {
+  background: rgb(195, 224, 243);
+  cursor: pointer;
+}
+section #img:hover > * {
+  opacity: 1;
+  visibility: visible;
+  transition: all 3s ease-out;
+}
+#perfil {
+  background-color: lightblue;
+  font-family: Tahoma, Geneva, sans-serif;
+}
+section #right h5 {
+  margin: 0em 0 0 8px;
+  text-align: center;
+  margin: 0em 0 0 8px;
+  font-style: normal;
+  font-size: 0.83em;
+  font-weight: bold;
+}
+section #right hr {
+  border-color: rgb(122, 126, 122);
+  border-width: 2px;
+  width: 150px;
+  margin: 0em auto;
+}
+section #right ul {
+  list-style-type: none;
+  padding-left: 0px;
+  text-align: center;
+}
+section #right li {
+  display: inline-block;
+  padding: 6px;
+  margin: 0;
+  border-radius: 100%;
+}
+section #right ul li:hover {
+  background-color: lightgoldenrodyellow;
+}
+section #right li a {
+  text-decoration: none;
+}
+
+section #right li a img {
+  height: 25px;
+  width: 25px;
+}
